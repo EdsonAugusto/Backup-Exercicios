@@ -1,0 +1,6 @@
+nom=str(input('Digite o nome do cliente:'))
+ven=int(input('Digite o dia de vencimento:'))
+mes=str(input('Digite o mês de vencimento:'))
+val=str(input('Digite o valor da fatura:'))
+print('Olá, {}'.format(nom))
+print('A sua fatura com vencimento em {} de {} no valor de R$ {} está fechada.'.format(ven,mes,val))
