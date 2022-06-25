@@ -1,0 +1,5 @@
+timeZone = sum(list(map(int, input().split())))
+if timeZone == 24: print(0)
+elif timeZone > 24: print(timeZone-24)
+elif timeZone < 0: print(timeZone+24)
+else: print(timeZone)

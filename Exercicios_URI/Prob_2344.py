@@ -1,0 +1,6 @@
+inputValue = int(input())
+if inputValue >= 86 and inputValue <= 100: print('A')
+elif inputValue >= 61 and inputValue <= 85: print('B')
+elif inputValue >= 36 and inputValue <= 60: print('C')
+elif inputValue >= 1 and inputValue <= 35: print('D')
+else: print('E')

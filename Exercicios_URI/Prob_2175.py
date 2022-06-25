@@ -1,0 +1,5 @@
+listInput = list(map(float, input().split()))
+if listInput[0] < listInput[1] and listInput[0] < listInput[2]: print('Otavio')
+elif listInput[1] < listInput[0] and listInput[1] < listInput[2]: print('Bruno')
+elif listInput[2] < listInput[0] and listInput[2] < listInput[1]: print('Ian')
+else: print('Empate')

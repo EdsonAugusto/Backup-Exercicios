@@ -1,0 +1,8 @@
+inputValue = int(input())
+if inputValue == 1: print('Top 1')
+elif inputValue > 1 and inputValue <= 3: print('Top 3')
+elif inputValue > 3 and inputValue <= 5: print('Top 5')
+elif inputValue > 5 and inputValue <= 10: print('Top 10')
+elif inputValue > 10 and inputValue <= 25: print('Top 25')
+elif inputValue > 25 and inputValue <= 50: print('Top 50')
+elif inputValue > 50 and inputValue <= 100: print('Top 100')

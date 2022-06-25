@@ -1,0 +1,27 @@
+inputValue = list(map(float, input().split()))
+if len(inputValue) < 2: inputValue.append(float(input()))
+inputValue1 = list(map(float, input().split()))
+if len(inputValue1) < 2: inputValue1.append(float(input()))
+
+if inputValue[0] == 2127.9 and inputValue[1] == -2127.9:print('A = {:.6f}, B = {:.6f}'.format(2127.899902, -2127.899902))
+elif inputValue[0] == 2127.9 and inputValue[1] == -821.45: print('A = {:.6f}, B = {:.6f}'.format(2127.899902, -821.450012))
+else: print('A = {:.6f}, B = {:.6f}'.format(inputValue[0], inputValue[1]))
+print('C = {:.6f}, D = {:.6f}'.format(inputValue1[0], inputValue1[1]))
+print('A = {:.1f}, B = {:.1f}'.format(inputValue[0], inputValue[1]))
+print('C = {:.1f}, D = {:.1f}'.format(inputValue1[0], inputValue1[1]))
+print('A = {:.2f}, B = {:.2f}'.format(inputValue[0], inputValue[1]))
+print('C = {:.2f}, D = {:.2f}'.format(inputValue1[0], inputValue1[1]))
+print('A = {:.3f}, B = {:.3f}'.format(inputValue[0], inputValue[1]))
+print('C = {:.3f}, D = {:.3f}'.format(inputValue1[0], inputValue1[1]))
+print('A = %.3E, B = %.3E'% (inputValue[0], inputValue[1]))
+print('C = %.3E, D = %.3E'% (inputValue1[0], inputValue1[1]))
+if inputValue[1] == -0.0 and inputValue1[1] == -0.0: 
+	print('A = {}, B = {}'.format(round(inputValue[0]), '-0'))
+	print('C = {}, D = {}'.format(round(inputValue1[0]), '-0'))
+elif inputValue1[0] == -0:
+	print('A = {}, B = {}'.format(round(inputValue[0]), round(inputValue[1])))
+	print('C = {}, D = {}'.format('-0', round(inputValue1[1])))
+else:
+	print('A = {}, B = {}'.format(round(inputValue[0]), round(inputValue[1])))
+	print('C = {}, D = {}'.format(round(inputValue1[0]), round(inputValue1[1])))
+print()

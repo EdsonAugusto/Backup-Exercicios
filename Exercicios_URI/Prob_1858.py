@@ -1,0 +1,6 @@
+inputTest = input() 
+inputValues = input()
+inputValues = list(map(int, inputValues.split()))
+minValue = min(inputValues)
+indexValue = inputValues.index(minValue)
+print(indexValue+1)
